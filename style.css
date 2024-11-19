@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h1 {
+    background-color: lightgreen; /* Set background color to light green */
+    color: #2c3e50; /* Keep the text color as it is */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#aqi-value {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #e74c3c;
+}
+
+.info {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* FAQ Button Style */
+.faq-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.faq-button:hover {
+    background-color: #27ae60;
+}
+
+/* FAQ Section Style */
+.faq-section {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    display: none; /* Initially hidden */
+    overflow-y: auto;
+    max-height: 80vh;
+    z-index: 999;
+}
+
+/* FAQ Item Style */
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-item h3 {
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.faq-item .answer {
+    display: none;
+    font-size: 1em;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* PDF Link Styling */
+.pdf-link {
+    color: #2ecc71;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pdf-link:hover {
+    text-decoration: underline;
+    color: #27ae60;
+}
+
+#faq-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#faq-button:hover {
+    background-color: #2980b9;
+}
+
+#faq-content {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    display: none;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.info {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Substations Section */
+.substations {
+    margin: 20px auto;
+    text-align: left;
+    width: 80%;
+}
+
+.substation {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.substation h3 {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

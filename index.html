@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AQI Dashboard Chandigarh</h1>
+    <div id="aqi-value">Loading AQI...</div>
+    <div id="city-name" class="info"></div>
+    <div id="dominant-pollutant" class="info"></div>
+    <div id="pm25-value" class="info"></div>
+    <div id="pm10-value" class="info"></div>
+    <div id="time-updated" class="info"></div>
+    <div id="substations" class="substations"></div>
+</body>
+
+
+
+
+
+
+    <!-- FAQ Section -->
+    <button id="faq-button">Frequently Asked Questions</button>
+    <div id="faq-content" style="display: none;">
+        <p><strong>What is AQI?</strong></p>
+        <p>AQI (Air Quality Index) is a numerical scale used to communicate how polluted the air is.</p>
+
+        <p><strong>What does a high AQI value indicate?</strong></p>
+        <p>A high AQI value indicates that the air quality is poor and may pose health risks.</p>
+
+        <p><strong>How is AQI calculated?</strong></p>
+        <p>The AQI is calculated based on the concentration of various pollutants in the air.</p>
+
+        <p><strong>What are PM2.5 and PM10?</strong></p>
+        <p>PM2.5 and PM10 refer to particulate matter suspended in the air.</p>
+
+        <p><strong>Where can I get more detailed information on AQI?</strong></p>
+        <p>For more detailed information on AQI, you can <a href="AQI-info.pdf" download>Download PDF</a>.</p>
+    </div>
+
+    <footer>
+        <p>Powered by <a href="https://waqi.info/" target="_blank">AQI API</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
